@@ -98,7 +98,7 @@
     }
     
     .container.gallery-container {
-        background-color: #ede4f1;
+        background-color: #9783a0;
         color: #89f5f5;
         min-height: 100vh;
         border-radius: 20px;
@@ -116,7 +116,7 @@
         text-align: center;
         max-width: 800px;
         margin: 25px auto;
-        color: #888;
+        color: #3a3838;
         font-size: 18px;
     }
     
@@ -128,17 +128,17 @@
         width: 100%;
         margin-bottom: 30px;
         transition: 0.2s ease-in-out;
-        box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+        box-shadow: 0 2px 3px #00000033;
     }
     
     
     .tz-gallery .lightbox img:hover {
         transform: scale(1.05);
-        box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+        box-shadow: 0 8px 15px #0000004d;
     }
     
     .tz-gallery img {
-        border-radius: 100%;
+        border-radius: 30%;
     }
     
     .baguetteBox-button {
