@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/estilos.css" type="text/css">
     <link rel="stylesheet" href="estilos/bootstrap.min.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
     <title>Galeria de fotos</title>
 </head>
 <body>
@@ -37,9 +42,66 @@
         </ul>
       </div>
     </nav>
-    
+    <div class="container gallery-container">
+
+      <h1>Galeria de Fotos</h1>
+  
+      <p class="page-description text-center">Instrumentos</p>
+      
+      <div class="tz-gallery">
+  
+          <div class="row">
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="img/guitarra.jpg">
+                      <img src="img/guitarra.jpg" alt="guitarra">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="img/Quena.jpg">
+                      <img src="img/Quena.jpg" alt="Quena">
+                  </a>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                  <a class="lightbox" href="img/teclado.jpg">
+                      <img src="img/teclado.jpg" alt="Teclado">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="img/tres-s-cubano.jpg">
+                      <img src="img/tres-s-cubano.jpg" alt="Tres cubano">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="img/saxofon-alto-dorado-standar-eb.jpg">
+                      <img src="img/saxofon-alto-dorado-standar-eb.jpg" alt="Saxofon">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="img/bajo.jpg">
+                      <img src="img/bajo.jpg" alt="Bajo">
+                  </a>
+              </div>
+              
+          </div>
+  
+      </div>
+  
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+      baguetteBox.run('.tz-gallery');
+  </script>
+
+
+
     <div class="container-fluid"></div>
     
+
+
+
+
+
     <footer>
       <p>
         Autor: Alejandro Troncoso<br>
