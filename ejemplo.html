@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css" type="text/css">
+    <link rel="stylesheet" href="estilos/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <title>pagina responsive</title>
+</head>
+<body>
+    <div class="container gallery-container">
+        <h1> Galeria de Fotos</h1>
+        <p class="page-description text-center"> Intrumentos</p>
+
+        <div class="tz-gallery">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/bajo.jpg">
+                    <img src="img/bajo.jpg" alt="bajo">
+                </a>
+                </div>
+            
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/guitarra.jpg">
+                <img src="img/guitarra.jpg"></a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/teclado.jpg">
+                <img src="img/teclado.jpg"></a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/Violin.jpg" title="violin">
+                    <img src="img/Violin.jpg"></a>
+                    
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/Yamaha bateria.jpg">
+                <img src="img/Yamaha bateria.jpg"></a>
+            </div>
+
+        </div>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js">
+        </script>
+        <script>
+            baguetteBox.run('.tz-gallery')
+        </script>
+    </div>
+</body>
+</html>
